@@ -1,0 +1,60 @@
+body{
+    background-color: pink;
+}
+.big-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-right: 12px;
+    margin-bottom: 6px;
+    border-radius: 15px;
+}
+
+#container{
+    margin: 200px;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-evenly;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    gap: 30px;
+    border: 3px solid #ed1212;
+
+
+}
+#display{
+    width:300px;
+    height: 100px;
+    border-radius: 15px;
+    border-color: darkblue;
+    background-color: #257295;
+    font-size: xxx-large;
+    color: yellow;
+}
+button{
+    height: 40px;
+    width: 50px;
+
+}
+
+.op{
+    background-color: orange;
+}
+.num{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+
+}
+.clear{
+    width: 300px;
+    margin-top: 12px;
+}
+
+
